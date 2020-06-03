@@ -7,10 +7,22 @@
     <ProjectGuid>{AB815932-7660-4F97-A329-D18D1FC1FDB9}</ProjectGuid>
     <TemplateGuid>{b6f3ff35-79b2-4f25-a2fc-60a7cf61013b}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>NativeLibrary</RootNamespace>
+    <RootNamespace>AdaptiveCards.iOS.Binding</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>AdaptiveCards.iOS.Binding</AssemblyName>
+    <AssemblyName>AdaptiveCards.Xamarin.iOS.Binding.Pepsi1x1</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>AdaptiveCards.Xamarin.iOS.Binding.Pepsi1x1</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>David Thompson</Authors>
+    <Description>Xamarin Binding of fat binary for AdaptiveCards iOS</Description>
+    <Copyright>Copyright 2020</Copyright>
+    <PackageIconUrl>https://github.com/Pepsi1x1/AdaptiveCards.iOS.Binding</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/Pepsi1x1/AdaptiveCards.iOS.Binding</PackageLicenseUrl>
+    <Owners>David Thompson</Owners>
+    <PackageProjectUrl>https://github.com/Pepsi1x1/AdaptiveCards.iOS.Binding</PackageProjectUrl>
+    <Summary>Xamarin Binding of fat binary for AdaptiveCards iOS</Summary>
+    <Title>AdaptiveCards.Xamarin.iOS.Binding.Pepsi1x1</Title>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +35,6 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>full</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>

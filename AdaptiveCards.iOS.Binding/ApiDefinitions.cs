@@ -775,7 +775,7 @@ namespace AdaptiveCards.iOS.Binding
 		// @required -(void)configUpdateForUIImageView:(ACOBaseCardElement *)acoElem config:(ACOHostConfig *)acoConfig image:(UIImage *)image imageView:(UIImageView *)imageView;
 		[Abstract]
 		[Export ("configUpdateForUIImageView:config:image:imageView:")]
-		void Config (ACOBaseCardElement acoElem, ACOHostConfig acoConfig, UIImage image, UIImageView imageView);
+		void ConfigUpdateForUIImageView(ACOBaseCardElement acoElem, ACOHostConfig acoConfig, UIImage image, UIImageView imageView);
 	}
 
 	// @interface ACRBaseCardElementRenderer : NSObject <ACRIBaseCardElementRenderer>
